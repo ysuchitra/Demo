@@ -13,7 +13,7 @@ body{
   float: left;
 }
 
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 { 
   font-family: 'Lora', serif;
   color: #e6e600;
   font-size: 1.5em;
@@ -30,11 +30,12 @@ body{
 
 #nav-list {
   margin-top: 10px;
-  float:right;
+  width: 100%;
 }
 #nav-list a {
   color: #b3b300;
   text-align: center;
+  width: 100%;
 }
 #nav-list a:hover {
   background: #E7E7E7;
@@ -44,7 +45,7 @@ body{
 }
 
 .navbar-header button.navbar-toggle {
-  clear: both;
+  clear: left;
   margin-top: -40px;
 }
 
@@ -80,6 +81,11 @@ body{
 .row{
   width: 100%;
 
+}
+
+.menu-dropdown li{
+	width:100%;
+	text-align: center;
 }
 
 
